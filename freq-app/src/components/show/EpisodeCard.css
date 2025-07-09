@@ -1,0 +1,78 @@
+.episode-card {
+  background-color: var(--oyster-pink); 
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: var(--thunder); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(201, 109, 109, 0.2);
+}
+
+.episode-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--opium); 
+  margin: 0;
+  text-align: center;
+}
+
+.episode-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--thunder);
+  margin: 0;
+  text-align: center;
+}
+
+.episode-audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.audio-label {
+  font-size: 0.85rem;
+  color: var(--bazaar); 
+  font-style: italic;
+  margin: 0;
+}
+
+.audio-tag {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 6px;
+}
+
+.favorite-button {
+  background-color: var(--pharlap);
+  color: var(--westar);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: var(--opium);
+}
+
+.completed-badge {
+  margin-left: 10px;
+  color: green;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+

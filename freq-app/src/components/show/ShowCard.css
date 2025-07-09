@@ -1,0 +1,114 @@
+.show-card {
+  text-align: center;
+  background: var(--oyster-pink); 
+  padding: 1rem;
+  color: var(--thunder); 
+  border: 1px solid var(--bazaar); 
+  border-radius: 0.75rem; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  margin-bottom: 16px;
+}
+
+.show-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--pharlap);
+  box-shadow: 0 8px
+}
+
+.show-image {
+  margin: 0 auto 12px auto;
+  width: 250px;
+  height: auto; 
+  object-fit: contain;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  background-color: var(--westar);
+}
+
+.show-image:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.show-title {
+  font-size: 1.25rem; 
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  color: var(--opium); 
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.show-title:hover {
+  text-decoration: underline;
+  color: var(--beauty-bush); 
+}
+
+.show-description {
+  font-size: 0.9rem; 
+  color: var(--thunder); 
+  margin-bottom: 0.75rem; 
+  line-height: 1.6;
+  max-height: 3.6em; 
+}
+
+.show-seasons {
+  margin-top: 4px; 
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--russett); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.read-more {
+  color: var(--pharlap);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 0.3em;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  color: var(--opium);
+}
+
+.show-genres {
+  margin-top: 4px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.genre-pill {
+  background: var(--pharlap); 
+  color: var(--westar); 
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  margin-right: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+.genre-pill:hover {
+  background: var(--opium);
+}
+
+.show-updated {
+  margin-top: 4px; 
+  font-size: 0.75rem;
+  color: var(--bazaar);
+  font-style: italic;
+}

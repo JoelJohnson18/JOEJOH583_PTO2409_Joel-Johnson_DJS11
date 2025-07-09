@@ -1,0 +1,21 @@
+
+
+.reset-progress-button {
+  margin-left: auto;
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reset-progress-button:hover {
+  background-color: var(--accent-hover, #e0e0e0); /* fallback if --accent-hover is not defined */
+  transform: scale(1.03);
+}
+
+.reset-progress-button:active {
+  transform: scale(0.98);
+}

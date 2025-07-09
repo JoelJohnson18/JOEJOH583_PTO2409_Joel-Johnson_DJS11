@@ -1,0 +1,38 @@
+.season-detail {
+  padding: 1.5rem;
+  background-color: var(--westar); 
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  color: var(--thunder); 
+}
+
+.back-button {
+  background-color: var(--pharlap);
+  color: var(--westar); 
+  border: none;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: var(--opium); 
+}
+
+.season-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--opium); 
+  text-align: center;
+}
+
+.episode-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}

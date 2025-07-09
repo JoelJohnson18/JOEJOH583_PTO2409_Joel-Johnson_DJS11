@@ -1,0 +1,77 @@
+.details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  font-family: sans-serif;
+  color: var(--thunder);
+  background-color: var(--oyster-pink);
+}
+
+.show-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: var(--opium);
+}
+
+.show-descriptions {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--thunder);
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 1.75rem;
+  color: var(--pharlap);
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid var(--bazaar);
+  padding-bottom: 8px;
+}
+
+.season-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.season-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.season-card:hover {
+  transform: translateY(-4px);
+}
+
+.season-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.season-info {
+  padding: 16px;
+  text-align: center;
+  color: var(--thunder);
+}
+
+.season-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--opium);
+}
+
+.season-info p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--bazaar);
+}
