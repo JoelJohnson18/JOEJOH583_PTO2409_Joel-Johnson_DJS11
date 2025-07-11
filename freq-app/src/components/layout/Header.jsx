@@ -1,19 +1,17 @@
-import './Header.css';
+import "./Header.css";
 // Import the Link component to enable client-side navigation //
-import { Link } from 'react-router-dom'; 
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="app-header">
       <div className="logo">
         <Link to="/">
-          <img src="/web-app-manifest-512x512.png" alt="Logo" />
+          <img src="/Freq-image.jpg" alt="Logo" />
         </Link>
       </div>
 
-      <div className="slogan">
-        Raise the Frequency of Your Thinking!
-      </div>
+      <div className="slogan">All your favorite voices, in one Freq.</div>
 
       <nav className="nav-links">
         <Link to="/">Home</Link>
